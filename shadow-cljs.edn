@@ -1,0 +1,8 @@
+;; shadow-cljs configuration
+{:deps {:aliases [:shadow-cljs-build]}
+
+ :dev-http {8080 "public"}
+ :builds
+ {:app
+  {:target :browser
+   :modules {:main {:init-fn stickerbomber.app/init}}}}}
