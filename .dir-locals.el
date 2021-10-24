@@ -1,4 +1,5 @@
 ((nil
-  (cider-clojure-cli-global-options . "-A:cider")
-  (cider-default-cljs-repl . figwheel-main)
-  (cider-figwheel-main-default-options . ":dev")))
+  (cider-clojure-cli-global-options . "-A:cider:shadow-cljs-build")
+  (cider-default-cljs-repl . shadow-select)
+  (cider-shadow-default-options . "app")
+  (cider-shadow-watched-builds . ("app"))))
