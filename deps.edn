@@ -18,5 +18,6 @@
 
   :cider
   {:extra-paths ["resources"]
-   extra-deps
-   {cider/cider-nrepl {:mvn/version "0.27.2"}}}}}
+   :extra-deps
+   {cider/cider-nrepl {:mvn/version "0.27.2"}
+    nrepl/nrepl {:mvn/version "0.9.0-beta3"}}}}}

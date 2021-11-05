@@ -1,3 +1,13 @@
-body {
-    background-color: grey;
+.preview {
+    height: 50px;
+    background: repeating-conic-gradient(#808080 0% 25%, transparent 0% 50%)
+                                        50% / 20px 20px;
+}
+
+.output {
+    background: repeating-conic-gradient(#808080 0% 25%, transparent 0% 50%)
+                                        50% / 50px 50px;
+    background-clip: padding-box;
+    border-style: dashed;
+    border-color: gold;
 }
