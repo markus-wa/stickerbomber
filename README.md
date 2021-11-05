@@ -1,7 +1,8 @@
 # stickerbomber
 Stickerbomb / Collage Generator
 
-_⚠️ note: example images below are just from searching random transparent images on Google, no affiliation or endorsement intended._
+_⚠️ note: example images below are just from searching random transparent images on Google_<br>
+_no affiliation or endorsement intended._
 
 ![image](https://user-images.githubusercontent.com/5138316/140572184-8c070ec2-7ec6-43fa-9493-807cefe5ddf5.png)
 
