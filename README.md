@@ -1,5 +1,6 @@
 # stickerbomber
-Stickerbomb / Collage Generator
+
+Stickerbomb / Collage Generator - adds white outline to provided images and randomly arranges them via rotation and translation to achieve a stickerbombing effect.
 
 _⚠️ note: example images below are just from searching random transparent images on Google_<br>
 _no affiliation or endorsement intended._
