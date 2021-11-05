@@ -35,11 +35,13 @@
     (.fillRect ctx 0 0 width height)
     (doseq [img canvases]
       (.save ctx)
-      (.translate ctx (/ (. out -width) 2) (/ (. out -height) 2))
+      (let [padding-x (/ (. img -width) 4)
+            x (+ padding-x (rand-int (- width padding-x)))
+            padding-y (/ (. img -height) 4)
+            y (+ padding-y (rand-int (- height padding-y)))]
+        (.translate ctx x y))
       (.rotate ctx (* (rand-int 360) (/ js/Math.PI 180)))
-      (let [max-x (- width (. img -width))
-            max-y (- height (. img -height))]
-        (.drawImage ctx img (- (rand-int max-x) (/ max-x 2)) (- (rand-int max-y) (/ max-y 2))))
+      (.drawImage ctx img (- (/ (. img -width) 2)) (- (/ (. img -height) 2)))
       (.restore ctx))
     out))
 
